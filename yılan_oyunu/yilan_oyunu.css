@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+}
+
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #fff;
+}
+
+#snake-head,
+#food,
+.snake-segment {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+#snake-head {
+  background-color: #00f;
+}
+
+#food {
+  background-color: #f00;
+}
+
+.snake-segment {
+  background-color: #0f0;
+}
